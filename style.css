@@ -1,0 +1,33 @@
+body {
+    font-family:  Arial,sans-serif;
+    background-color:  #f5f5f5;
+    margin:  20px;
+}
+
+h1 {
+     color: blue;
+}
+
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #007bff;
+    transform: scale(1.1);
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}	 
